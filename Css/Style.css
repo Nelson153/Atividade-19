@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 8;
+}
+
+#menu ul {
+    margin: 0;
+    background-color: #b8b8b8;
+    list-style: none;
+    text-align: left;
+    font-size: medium;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: #121375;
+}
+ 
+.logo{
+    width: 1330px;
+    height: 600px;
+    background-image: url(https://th.bing.com/th/id/OIP.3kxpVP3ixj5M38av3GqWQQHaFU?pid=Api&rs=1);
+    background-size: 100px 64px;
+    position: absolute;
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'fontetrilegal';
+    src: url('../fontes/coolvetica_rg-webfont.woff2') format('woff2'),
+         url('coolvetica_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: rgb(199, 223, 217);
+    margin: 0;
+    padding: 8;
+    font-family: 'fontetrilegal';
+}
+
+#menu ul {
+    margin: 0;
+    background-color: #b8b8b8;
+    list-style: none;
+    text-align: left;
+    font-size: medium;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: #121375;
+}
+
+#estilo{
+    font-family: Times New Roman Arial, serif;
+    text-align: center;
+}
+
+
+.p{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, verdana, sans-serif;
+}
+
